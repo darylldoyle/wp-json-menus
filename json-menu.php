@@ -203,7 +203,7 @@ if (!class_exists('Json_Menu')) {
                 else
                     $top_level_menu_items[] = $menu_item;
 
-            $menu = (array) $wp_menu;
+            $menu = (array)$wp_menu;
 
             while ($sorted_menu_items) :
                 $i = 0;
